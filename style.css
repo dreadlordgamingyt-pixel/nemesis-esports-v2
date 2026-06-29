@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#0b0b0b;
+    color:#fff;
+    font-family:Inter,sans-serif;
+}
+
+.navbar{
+    position:fixed;
+    top:0;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 8%;
+    background:rgba(0,0,0,.45);
+    backdrop-filter:blur(12px);
+    z-index:999;
+}
+
+.logo img{
+    height:60px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:35px;
+}
+
+nav ul li a{
+    color:#fff;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    color:#FFD700;
+}
+
+.register-btn{
+    background:#FFD700;
+    color:#000;
+    padding:12px 26px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.hero{
+    height:100vh;
+    background:url("assets/hero-banner.webp") center/cover no-repeat;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
