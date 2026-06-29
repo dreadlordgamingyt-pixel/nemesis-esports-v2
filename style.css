@@ -139,3 +139,41 @@ nav ul li a:hover{
     background: #FFD700;
     color: #111;
 }
+.stats{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+    padding:70px 8%;
+    background:#111;
+}
+
+.stat-card{
+    background:rgba(255,255,255,.04);
+    border:1px solid rgba(255,215,0,.2);
+    border-radius:20px;
+    padding:35px;
+    text-align:center;
+    transition:.35s;
+}
+
+.stat-card:hover{
+    transform:translateY(-8px);
+    border-color:#FFD700;
+    box-shadow:0 0 30px rgba(255,215,0,.25);
+}
+
+.stat-card span{
+    font-size:40px;
+}
+
+.stat-card h2{
+    margin:15px 0 8px;
+    font-size:34px;
+    color:#FFD700;
+}
+
+.stat-card p{
+    color:#bbb;
+    font-size:16px;
+}
