@@ -227,3 +227,27 @@ nav ul li a:hover{
     font-size:56px;
     color:#FFD700;
 }
+.rules{
+    padding:100px 8%;
+    background:#101010;
+}
+
+.rules-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.rule-card{
+    background:#181818;
+    border-left:5px solid #FFD700;
+    padding:25px;
+    border-radius:15px;
+    font-size:18px;
+    transition:.3s;
+}
+
+.rule-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 0 25px rgba(255,215,0,.25);
+}
