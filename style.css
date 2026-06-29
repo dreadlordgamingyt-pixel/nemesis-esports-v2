@@ -177,3 +177,53 @@ nav ul li a:hover{
     color:#bbb;
     font-size:16px;
 }
+.prize-section{
+    padding:100px 8%;
+    background:#0b0b0b;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.section-title h2{
+    font-size:48px;
+    color:#FFD700;
+    margin-bottom:10px;
+}
+
+.section-title p{
+    color:#bbb;
+}
+
+.prize-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+}
+
+.prize-card{
+    background:linear-gradient(145deg,#151515,#1f1f1f);
+    border:1px solid rgba(255,215,0,.25);
+    border-radius:24px;
+    padding:50px;
+    text-align:center;
+    transition:.4s;
+}
+
+.prize-card:hover{
+    transform:translateY(-10px);
+    border-color:#FFD700;
+    box-shadow:0 0 40px rgba(255,215,0,.25);
+}
+
+.prize-card h3{
+    color:#ddd;
+    margin-bottom:20px;
+}
+
+.prize-card h1{
+    font-size:56px;
+    color:#FFD700;
+}
